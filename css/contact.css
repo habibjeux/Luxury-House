@@ -33,8 +33,9 @@
 header {
     margin-bottom: 12rem;
 }
-.bannierre {
+.bannierre iframe {
     height: 250px;
+    width: 100%;
 }
 .right_contact {
     margin-top: 6rem;
