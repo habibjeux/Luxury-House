@@ -31,10 +31,8 @@
     font-size: 18px;
 }
 
-.espace {
-    margin-bottom: 5rem;
-}
 .bannierre iframe {
+    margin-top: 6rem;
     height: 550px;
     width: 100%;
 }
