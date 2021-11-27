@@ -1,0 +1,208 @@
+.about {
+    margin: 0 1rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: 350px;
+    border-bottom: 1px solid gray;
+}
+.about_text {
+    display: inline-block;
+    width: 60%;
+    margin-left: 2rem;
+}
+.img_about {
+    width: 350px;
+    background-image: url('../images/homme_1.jpg');
+    background-size: 100% 100%;
+    height: 350px;
+    float: right;
+    margin-right: 2rem;
+}
+.img_about > a {
+    text-decoration: none;
+}
+.apropos_underline {
+    height: 4px;
+    background-color: var(--red);
+    width: 9%;
+    margin-bottom: 1rem;
+}
+.about_text h2 {
+    margin-bottom: 5px;
+}
+.img_about > h3 {
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+}
+.img_about .btn-click {
+    padding: .5rem 1rem;
+    display: block;
+    margin: auto;
+    background: linear-gradient(180deg, rgb(46, 45, 92) 0%, rgba(198,12,48,1) 59%);
+    border: none;
+    color: white;
+}
+.btn-click a {
+    color: white;
+    text-decoration: none;
+}
+
+.recom {
+    background: url('../images/appartements/a1.jpg');
+    background-size: 100% 100%;
+    height : 266px;
+    width: 354px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.recom .app {
+    background-color: var(--green);
+    color: white;
+    border-radius: 4px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 11rem;
+}
+.recom .prix {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0px 4px var(--green);
+    text-align: left;
+}
+
+.info-suppl {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 22px -2px rgba(0, 0, 0, 1);
+}
+.info-suppl p {
+    display: inline-block;
+    color: white;
+    margin-top: 5px;
+    border-right: 1px solid white;
+    padding-right: 1rem;
+}
+.recommandation {
+    display: inline-block;
+    margin-right: 1.5rem;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+#recom_3 
+{
+    margin-right: 0;
+}
+.recommandations {
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+.recommandations h2, .recom_par {
+    text-align: left;
+    margin-left: 2rem;
+}
+.recommandation #recom_3 {
+    background: url('../images/villas/v1.jpg');
+    background-size: 100% 100%;
+}
+.recommandation #recom_1 {
+    background: url('../images/villas/v2.jpg');
+    background-size: 100% 100%;
+}
+.recommandation:hover {
+    border: 2px solid var(--red);
+    border-radius: 4px;
+}
+.nos_agents {
+    margin-bottom: 2rem;
+}
+.agents {
+    text-align: center;
+}
+
+.nos_agents h2 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+}
+
+.agent {
+    display: inline-block;
+    width: 400px;
+}
+.agent img {
+    height: 400px;
+    width: 400px;
+}
+
+.agent h3 {
+    font-size: 20px;
+}
+.agent h4 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.videos video {
+    margin : 2rem 0;
+    width: 100%;
+}
+
+
+
+.articles {
+    width: 62%;
+    display: inline-block;
+    margin-right: 2rem;
+    padding: 1%;
+    box-shadow: 0px 10px 22px -2px rgba(0,0,0,0.5);
+    border-radius: 10px 0 0 10px;
+
+}
+aside {
+    width: 25%;
+    display: inline-block;
+    box-shadow: 0px 10px 22px -2px rgba(0,0,0,0.5);
+    border-radius:  0 10px 10px 0;
+    height: 325px;
+    vertical-align: top;
+    padding-top: 1rem;
+}
+aside h3 {
+    padding-top: 1rem;
+}
+aside ul {
+    margin-left: 2rem;
+    text-align: left;
+}
+.article:first-child
+{
+    margin-bottom: 2rem;
+}
+.article {
+    text-align: left;
+}
+.actualite {
+    text-align: center;
+}
+#nos_partenaires {
+   text-align: center;
+}
+#nos_partenaires h2 {
+    font-size: 30px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.partner {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    margin-right: 1rem;
+}
+.partner p img {
+    height: 100px;
+    width: 300px;
+}

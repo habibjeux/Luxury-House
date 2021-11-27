@@ -1,0 +1,117 @@
+
+.contactUs {
+    background: rgb(255, 255, 255);
+    box-shadow: 
+    0 2px 8px rgba(0,0,0,0.1);
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+.right_contact {
+    display: inline-block;
+    width: 46%;
+}
+.left_contact {
+    display: inline-block;
+    width: 48%;
+    margin-left: 3%;
+    vertical-align: top;
+}
+.left_contact img {
+    width: 80%;
+}
+.left_contact h2 {
+    font-size: 36px;
+}
+.left_contact p {
+    font-size: 18px;
+}
+header {
+    margin-bottom: 12rem;
+}
+.bannierre {
+    background: url('../contact.png');
+    background-size: 100% 120%;
+    height: 250px;
+    padding-top: 21rem;
+}
+.right_contact {
+    margin-top: 6rem;
+}
+.right_contact div {
+    margin-bottom: 2rem;
+    border: 1px solid;
+    padding: 1rem 2rem;
+    box-shadow: 2px 2px 4px;
+}
+.right_contact div:hover {
+    border: none;
+    border-radius: 0 50px 50px 0;
+    box-shadow: 0 2px 4px rgb(53, 123, 189);
+}
+
+.right_contact div p{
+    display: inline-block;
+    font-size: 24px;
+}
+.right_contact div p a {
+    text-decoration: none;
+    color: rgb(53, 123, 189);
+}
+.right_contact div p i {
+    font-size: 45px;
+    margin-right: 2rem;
+}
+#emplacements {
+   text-align: center;
+   margin-bottom: 3rem;
+}
+#emplacements h3 {
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+.emplacement {
+    background: rgb(255, 255, 255);
+    box-shadow: 
+    0 2px 8px rgba(0,0,0,0.1);
+    padding: 1rem;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+.emplacement:hover {
+    background-color: #940320;   
+    color: white;
+}
+.emplacement .pays {
+    font-size: 30px;
+}
+.emplacement div {
+    margin-left: 2rem;
+}
+
+#nos_offres {
+    margin-bottom: 7rem;
+}
+#nos_offres h3 {
+    font-size: 30px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.offre {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 2rem;
+    text-align: center;
+}
+.offre p {
+    font-size: 24px;
+}
+.offre .promo {
+    color: var(--red);
+    font-weight: 800;
+    padding-top: 1rem;
+}

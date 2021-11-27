@@ -1,0 +1,141 @@
+.ventes {
+    width: 96%;
+    margin: auto;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+}
+.biens_immos {
+    box-shadow: 0px 4px 8px -2px rgba(0,0,0,0.5);
+    height: 324px;
+    margin-bottom: 3rem;
+}
+.images_ventes {
+    vertical-align: top;
+    width: 487px;
+    display: inline-block;
+}
+.infos_ventes {
+    width: 681px;
+    display: inline-block;
+    font-family: "Montserrat";
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.info_supp {
+    height: 55px;
+    background: var(--red);
+}
+.info_supp p {
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    top: .8rem;
+    color: white;
+    margin-left: 1.5rem;
+}
+.info_supp p img {
+    vertical-align: middle;
+}
+.icones {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 15.5rem;
+    left: 80%;
+}
+.icones:active {
+    background-color: var(--red);
+}
+
+.icones img {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 25%;
+}
+.infos_ventes h3 {
+    font-size: 22px;
+    font-weight: 200;
+}
+.infos_ventes  h4 {
+    font-size: 22px;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: .4rem;
+}
+.infos_ventes  h4:last-child {
+    float: right;
+    color: var(--red);
+}
+.infos_ventes p:first-of-type {
+    font-size: 18px;
+}
+.localite i {
+    font-size: 18px;
+}
+.detail a{
+    text-decoration: none;
+    color: var(--red);
+}
+.detail {
+    padding: .5rem 2rem;
+    background-color: white;
+    border: 1.5px solid var(--red);
+    margin-top: 1rem;
+    float: right;
+}
+.images_background_1 {
+    height: 269px;
+    background-image: url("../villas/v5.jpg");
+    background-size: cover;
+}
+.images_background_2 {
+    height: 269px;
+    background-image: url("../villas/v6.jpg");
+    background-size: cover;
+}
+.images_background_3 {
+    height: 269px;
+    background-image: url("../villas/v7.jpg");
+    background-size: cover;
+}
+.images_background_4 {
+    height: 269px;
+    background-image: url("../appartements/a5.jpg");
+    background-size: cover;
+}
+.images_background_5 {
+    height: 269px;
+    background-image: url("../appartements/a7.jpg");
+    background-size: cover;
+}
+.images_background_6 {
+    height: 269px;
+    background-image: url("../appartements/a6.jpg");
+    background-size: cover;
+}
+.images_background_7 {
+    height: 269px;
+    background-image: url("../maisons/m3.jpg");
+    background-size: cover;
+}
+.images_background_8 {
+    height: 269px;
+    background-image: url("../maisons/m4.jpg");
+    background-size: cover;
+}
+.images_background_9 {
+    height: 269px;
+    background-image: url("../maisons/m5.jpg");
+    background-size: cover;
+}
+.images_background_10 {
+    height: 269px;
+    background-image: url("../maisons/m6.jpg");
+    background-size: cover;
+}
+
