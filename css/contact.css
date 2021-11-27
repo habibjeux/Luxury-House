@@ -30,11 +30,9 @@
 .left_contact p {
     font-size: 18px;
 }
-header {
-    margin-bottom: 12rem;
-}
+
 .bannierre {
-    margin-top: 5rem;
+    padding-top: 5rem;
 }
 .bannierre iframe {
     height: 550px;
